@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto", sans-serif;
-  color: #000000;
+  font-family: var(--font-main), var(--font-sans-serif);
+  color: var(--black);
 }
 :root {
   --blue: #2196f3;
@@ -8,6 +8,8 @@ body {
   --black: #000000;
   --gray: #757575;
   --darkgray: #212121;
+  --font-main: "Roboto";
+  --font-sans-serif: sans-serif;
 }
 .btn {
   font-size: 16px;
@@ -73,14 +75,12 @@ body {
   background-color: #2f303a;
   color: var(--white);
   font-style: normal;
-  text-decoration: none;
 }
 .address {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.71;
   color: var(--gray);
-  text-decoration: none;
 }
 .address:hover,
 .address:focus {
