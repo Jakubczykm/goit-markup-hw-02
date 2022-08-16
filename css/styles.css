@@ -73,12 +73,14 @@ body {
   background-color: #2f303a;
   color: var(--white);
   font-style: normal;
+  text-decoration: none;
 }
 .address {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.71;
   color: var(--gray);
+  text-decoration: none;
 }
 .address:hover,
 .address:focus {
